@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1000px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: #c7cfc4;
+}
+
+.clearfix{
+    clear: both;
+}
+header{
+    height: 187px;
+    display: flex;
+    
+}
+.center{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+h1{
+    margin-left: 50px;
+    font-size: 70px;
+    font-weight: 400;
+   }
+.content{
+    position: relative;
+}
+.contacts{
+    float: left;
+    margin-left: 50px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding-left: 20px;
+}
+nav li{
+    margin-right: 40px;
+    height: 30px;
+}
+.name{
+    text-align: center;
+    margin-top: 40px;
+}
+.experience{
+    width: 600px;
+    margin: 50px auto;
+    
+}
+.experience li{
+    margin-top: 20px;
+    font-family: cursive;
+}
+.experience ul{
+    padding: 40px;
+}
+h3{
+    padding-bottom: 30px;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    top: 30px;
+    right: 30px;
+    position: absolute;
+    border: 1px solid black;
+    
+}
+
+
